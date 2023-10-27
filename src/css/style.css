@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    max-height: 500px;
+    width: 500px;
+    background-color: aqua;
+    padding: 40px;
+    text-align: center;
+    border-radius: 6px;
+    margin: 10px;
+    box-shadow: 2px 0px 14px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 0px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 0px 14px 0px rgba(165, 64, 64, 0.75);;
+}
+.cardTitle{
+    font-size: 40px;
+    background: linear-gradient(0deg, rgb(133, 195, 34) 91%, rgba(233, 197, 80, 0.95) 99%, rgba(253,187,45,1) 99%);
+    padding: 8px;
+    color: rgb(82, 10, 50);
+
+}
+.cardDes{
+    color: tomato;
+    font-size: 20px;
+    padding: 20px 0px;
+    font-weight: 900;
+}
+
+.cardFooter{
+    font-size: 40px;
+    color: rgb(12, 12, 12);
+}

@@ -1,9 +1,9 @@
-import './App.css'
-import Render1 from './component/Render1';
+
+import Card from './component/Card';
 const App = () => {
   return (
     <div>
-      <Render1/>
+      <Card/>
     </div>
   );
 };

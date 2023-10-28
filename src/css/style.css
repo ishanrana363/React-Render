@@ -1,36 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
 .card{
-    max-height: 500px;
     width: 500px;
-    background-color: aqua;
-    padding: 40px;
+    height: auto;
+    margin-top: 30px;
+    background-color: gold;
+    border-radius: 5px;
+    padding: 30px;
     text-align: center;
-    border-radius: 6px;
-    margin: 10px;
-    box-shadow: 2px 0px 14px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 2px 0px 14px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 0px 14px 0px rgba(165, 64, 64, 0.75);;
+    box-shadow: 6px -1px 20px 14px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 6px -1px 20px 14px rgba(0,0,0,0.19);
+    -moz-box-shadow: 6px -1px 20px 14px rgba(0,0,0,0.19);
+    transition: transform 0.4s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.5);
 }
 .cardTitle{
-    font-size: 40px;
-    background: linear-gradient(0deg, rgb(133, 195, 34) 91%, rgba(233, 197, 80, 0.95) 99%, rgba(253,187,45,1) 99%);
-    padding: 8px;
-    color: rgb(82, 10, 50);
-
+    font-size: 35px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: wheat;
 }
-.cardDes{
-    color: tomato;
+.cardDesc{
+    padding: 17px 0px;
     font-size: 20px;
-    padding: 20px 0px;
-    font-weight: 900;
+    color: hotpink;
+    font-weight: 700;
 }
-
 .cardFooter{
-    font-size: 40px;
-    color: rgb(12, 12, 12);
+    color: magenta;
+    font-size: 20px;
+    font-weight: 900;
 }

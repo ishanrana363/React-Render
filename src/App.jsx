@@ -14,13 +14,16 @@
 //   );
 // };
 
+import NestedLists from "./component/NestedLists";
+
 // export default App;
-import UniqueList from './component/UniqueListId';
+// import UniqueList from './component/UniqueListId';
 
 const App = () => {
   return (
     <div>
-      <UniqueList/>
+      {/* <UniqueList/> */}
+      <NestedLists/>
     </div>
   );
 };
